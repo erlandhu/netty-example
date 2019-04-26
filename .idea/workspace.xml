@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06236c87-10b1-4c62-a632-6b73ff3babea" name="Default Changelist" comment="netty for protobuf">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/console/ClientConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/console/ServerConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerHandler.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/EchoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1207#1526#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/handler/EchoServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/client/EchoClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1318#1571#0" expanded="true" />
+                <element signature="e#1570#1571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#2288#2950#0" expanded="true" />
+                <element signature="e#2949#2950#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/server/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/server/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/server/handler/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/handler/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/client/handler/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/client/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/handler/ProtoServerInitialzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/code/ProtobufFrameDedoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/code/ProtobufFrameEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/code/ProtobufFrameDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/handler/ProtoServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/handler/ProtocolServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/ProtocolServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/protoc_with_copy.bat" />
+        <option value="$PROJECT_DIR$/src/main/resources/proto/Cmd.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/cmd/Cmd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/erlandhu/netty/example/TextClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/erlandhu/netty/example/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/console/ClientConsole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/console/ServerConsole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-echo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-echo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-echo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyecho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubboOne/dubboOne" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.51949227" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ideaProject\netty-echo\src\main\resources\proto" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.erlandhu.netty.protobuf.client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.erlandhu.netty.protobuf.code" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProject\netty-echo\src\main\resources\proto" />
+      <recent name="F:\ideaProject\netty-echo\src\main\java\org\erlandhu\netty\protobuf\cmd" />
+      <recent name="F:\ideaProject\netty-echo\src\main\java\org\erlandhu\netty\protobuf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.erlandhu.netty.echo.client.EchoClient" />
+      <module name="netty-echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erlandhu.netty.echo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.erlandhu.netty.echo.server.EchoServer" />
+      <module name="netty-echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erlandhu.netty.echo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.erlandhu.netty.protobuf.TestClient" />
+      <module name="netty-echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erlandhu.netty.protobuf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.erlandhu.netty.protobuf.TestServer" />
+      <module name="netty-echo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erlandhu.netty.protobuf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.TestServer" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06236c87-10b1-4c62-a632-6b73ff3babea" name="Default Changelist" comment="" />
+      <created>1555129632518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555129632518</updated>
+      <workItem from="1555129637642" duration="1665000" />
+      <workItem from="1555141632542" duration="7053000" />
+      <workItem from="1555151458410" duration="231000" />
+      <workItem from="1555472784911" duration="8095000" />
+      <workItem from="1555552410209" duration="1852000" />
+      <workItem from="1556007843555" duration="9154000" />
+      <workItem from="1556244577369" duration="8942000" />
+    </task>
+    <task id="LOCAL-00001" summary="netty for protobuf">
+      <created>1556015595643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556015595643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36992000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16577825" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.48553056" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46838155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13076098" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.78678036" weight="0.8297644" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17577706" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21321961" side_tool="true" weight="0.829582" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3226152" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.68777776" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37420043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.48553056" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46892038" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.488746" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.78678036" weight="0.8297644" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17577706" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21321961" side_tool="true" weight="0.829582" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3226152" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.68777776" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="netty for protobuf" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty for protobuf" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/handler/EchoServerHandler.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutorGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+          <folding>
+            <element signature="e#2247#2248#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="48" column="111" lean-forward="true" selection-start-line="48" selection-start-column="111" selection-end-line="48" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/socket/SocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/code/ProtobufFrameEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/code/ProtobufFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/proto/protoc_with_copy.bat" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/proto/protoc_all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/proto/Cmd.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/client/handler/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/console/ServerConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/console/ClientConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/cmd/Cmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+          <folding>
+            <element signature="e#7307#7308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/DefaultChannelPromise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="566" selection-start-line="566" selection-end-line="566" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="717" selection-start-line="717" selection-end-line="717" />
+          <folding>
+            <element signature="e#3836#3837#0" expanded="true" />
+            <element signature="e#3866#3867#0" expanded="true" />
+            <element signature="e#13045#13046#0" expanded="true" />
+            <element signature="e#13087#13088#0" expanded="true" />
+            <element signature="e#22273#22274#0" expanded="true" />
+            <element signature="e#23881#23882#0" expanded="true" />
+            <element signature="e#23952#23953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="892" selection-start-line="892" selection-end-line="892" />
+          <folding>
+            <element signature="e#27427#27428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+          <folding>
+            <element signature="e#7204#7205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/client/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1318#1571#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.14.Final/netty-all-4.0.14.Final-sources.jar!/io/netty/util/concurrent/DefaultPromise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="632" column="41" lean-forward="true" selection-start-line="632" selection-start-column="41" selection-end-line="632" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/erlandhu/netty/protobuf/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/client/ProtocolClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#2288#2950#0" expanded="true" />
+            <element signature="e#2949#2950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/handler/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/echo/server/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1207#1526#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/erlandhu/netty/protobuf/server/ProtocolServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51949227" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51949227" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51949227" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

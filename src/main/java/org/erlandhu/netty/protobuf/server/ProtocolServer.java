@@ -3,6 +3,7 @@ package org.erlandhu.netty.protobuf.server;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -73,8 +74,9 @@ public class ProtocolServer {
                      */
                     .option(ChannelOption.SO_BACKLOG, 3000);
 
-
-            channel = bootstrap.bind(port).sync().channel();
+            ChannelFuture f = bootstrap.bind(port).sync();
+            channel = f.channel();
+            f.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
